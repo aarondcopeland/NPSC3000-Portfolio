@@ -14,6 +14,7 @@
 \addbibresource{{~/Zotero/Zotero.bib}}
 \usepackage{fancyhdr}
 \usepackage{pdfpages}
+\usepackage{hyperref}
 
 \pagestyle{fancy}
 \fancyhead{}
@@ -81,6 +82,9 @@
 \section{Reflections}
 
 \subsection{Finding a comp chem workflow}
+
+Terminal and command line is useful, but why not use emacs?
+
 \subsection{Pawsey Tour}
 
 On Thursday March 30th the Curtin Computational Chemistry group, along with three visiting Italian Masters students, toured the Pawsey supercomputing facility in Technology Park near the Curtin University Campus. The visiting students were being introduced to the prospect of studying a PhD in Australia and shown what Curtin has to offer. I found it valuable chatting with these students. They seemed open to the idea of completing a PhD in Australia, Perth specifically. They liked our mild weather and location. I think the location of study is important in reinforcing positive learning and feeling towards studying. I haven't properly considered studying or working overseas. I'm definitely not opposed to it, but chatting with the students has made me conscious that I need to consider the town and surrounds of a possible place I might move to. I have ideas about countries that I would like to study in, but countries are so vast in culture, climate and people that I now know I have to be specific in my search for a host town or city (if or when I choose to look seriously at overseas study!).
@@ -89,29 +93,44 @@ The tour started with a presentation about the history and current specification
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[height=6cm]{graphics/pawsey}
+  \includegraphics[height=6cm,angle=-90,origin=c]{graphics/pawsey}
   \caption{Pawsey supercomputers}
   \label{fig:pawsey}
 \end{figure}
+\FloatBarrier
 
 After gazing at the black boxes that make my project possible I chatted with one of the Pawesy technicians. I'd read a recent article for a separate university unit. The article covered the consequences and worries about computer processor manufacturing in Taiwan with the current tension surrounding China trying to gain ownership of the country. With all of the processors that are necessary for the supercomputer, I asked the technician whether Pawsey has any risk mitigation or plans if issues in Taiwan escalated and crippled the worlds primary computer processor manufacturer. The conversation was short, but the technician said that the processor vendors would be directly effected and Pawesy was well equipped with stores of spare parts for the current supercomputer outfit. They mentioned that while it wasn't a current concern for Pawesy, it would be beneficial to add it to the centers discussions. I was pleased to have potentially add a possibly important point to the centers discussions. I am a stakeholder after all! While I wouldn't consider myself politically literate or focused, I think this reminds me why knowing what is going on around the world is important, even for just using a supercomputer for a university project.
 
 \subsection{Learning a codebase}
+
+Documentation is important and so is FOSS
+
 \subsection{Super Computer vs. Laptop Computer}
 
 I had to run a computer simulation for my project, but it was actually several simulations that would be run in a sequence. This was going to be orchestrated using a shell script, but a may have misheard my supervisor at some point because I thought they said I had to run this simulation on my laptop, not the supercomputer. I thought I heard that the shell script was written for the Z shell and not Bash and that the supercomputer did not have Z shell, but my personal computer did. I ran the simulation. It took three days to finish with my laptop fans and processor going full tilt. When I saw my supervisor after this, they said that running it on the supercomputer was fine, so we reran the simulation. It finished that same day. This comparison shows me the computing power difference of a laptop and a supercomputer - a lot! I already knew this, but having an unusable laptop for three days wasn't ideal when I still have things I could be doing on it. I have a new found appreciation of being able to connect remotely to a machine to complete a job or simulation and having the performance of my host machine be untouched.
 
 \subsection{Making Mistakes}
 
-I don't like making mistakes.
+I don't like making mistakes. Making mistakes feels like failure to me. I am slowly changing this ideology to something more positive because I have found that I get so ``in my head'' about making mistakes and asking my supervisor for help that I avoid doing the work. This is not healthy or productive. I'm glad to say that I have has a couple of good experiences when I have made mistakes in my project. One mistake that comes to mind is when I tried running a simulation without running it with any molecular dynamics parameters (the core of what the simulation is). When my supervisor found this out, they told me the fix and that was the end of it. I wasn't ridiculed or grilled for my silly mistake, I was told the solution where to go from there. Perhaps this is specific to my supervisor, but I appreciate their patience with me learning new things. I feel more comfortable with trying things or asking questions, no matter how simple, as it is just part of the learning process and itsn't something to feel ashamed about.
 
 \subsection{Supervisor being away}
 
 I enjoyed the independence of my supervisor being away, but I should have engauged more with other members of the group to make sure I didn't get stuck.
 
 \subsection{Mid-year Presentations}
+
+Mine: fine.
+
+Good!
+
 \subsection{My Understanding of Chemistry}
-\subsection{Plain Text talk and TeXMacs}
+
+Computer simulations are a bit different from experiments in the physical world.
+
+\subsection{``Plain Text''}
+
+\href{https://www.youtube.com/watch?v=gd5uJ7Nlvvo}{Plain Text}
+
 \subsection{Slumps vs. Pumps}
 
 I have struggled throughout this year with my motivation in my university work and my project. I sometimes find it difficult to find meaning and passion in the work that I should be doing and it feels like a cloud is covering how I really feel (that I do truly enjoy this work!). These struggles also extend to my personal activities. Thankfully, I've been inspired by the great bodybuilder Arnold Schwarzenegger to strive for something called ``the pump.'' The pump is the feeling of your body being extremely strong and tight when working out and it feels great. This was what I think about when I'm struggling to be active - that I could get the pump - and it's typically the nudge I need to get back into doing physical activity that I like and makes me feel good. So, recently when I've been struggling with my work, I've considered ``the pump'' in terms of working my brain. This has helped me transition out of slumps of being unproductive to getting work done. Hard work of any kind doesn't seem attractive at first glance, so it's easy to brush it off, but just starting with something small makes it easier to continue and try and find the elusive pump.
@@ -124,7 +143,6 @@ With my struggles throughout the year, I've had doubts about my ability and driv
 
 I've chosen to use my elective units this year to complete two writing units. While I could be have used these units to study more chemistry, I thought that extending my writing abilities would be something useful for me as I have struggled with writing generally in different forms. Since I want to pursue a career in academia, journal article writing would be my main publishing form. I already have a decent grasp on this style of writing and understand its value in communicating scientific information to fellow researchers. However, this is a relatively small target audience, and I feel as though scientific information should be accessible to the masses to increase general understanding of the world around us and beyond. Journal articles are not always written in a way that can be well understood by a general audience. This is why I have taken these writing units, to better my skills at writing in creative non-fiction and feature article writing. These styles are more suited to general audiences and can use different techniques to get readers interested in topics they might not usually be. While I may spend most of my career writing in the scientific style required for journal articles, if I want my research to be seen by the masses, I need to know how to show them - and I think the forms I have learnt and practice as part of these units has helped significantly (so much so, that I had considerations of doing a masters degree in writing and pursuing a career through that pathway).
 
-\subsection{Conducting Peer reviews}
 \subsection{Being in a new cohort}
 
 Having to redo NPSC3000 this year meant that I was a part of a new cohort of Advanced Science students. Previously, a change like this would have caused me significant anxiety, but I'm happy to say that this wasn't the case. A was already familiar with the Advance Science chemistry major students from this cohort, so this eased any tension I had. While I haven't has any ground-breaking chats with my fellow students, they all seem pleasant to be around and engaged with science throughout their projects. I feel as though this experience is important for building my adaptability for working with new people as I will have to join a workplace in the future and meet a new team of people (a cohort in a way).
@@ -138,7 +156,13 @@ While I don't consider myself a trend-chasing, I do like to keep an understandin
 This winter and autumn has been quite strange weather-wise. Cold, miserable days followed by a glimmer of warmth before more rain and cold. I'm happy to have found it possible to work from home for my project on these more miserable days when a commute under a gloomy sky to university is very unappealing. Although, it occurs to me that since I'm using the supercomputer to run my simulations remotely, my project technically doesn't need me to be present at university. However, I definitely see the value in seeing my peers and supervisor in person for quick queries, instead of sending emails back and forth. Also, I find the environment at university more conducing to getting work done which helps me with keeping on track. I'm not going to stop going to university to do my work, but it's nice to know that I can still get some things done from home if the weather is particularly miserable (or my mood for that matter). 
 
 \subsection{Coffee Chemistry}
+
+
+
 \subsection{Different Processing Unit Technologies}
+
+\href{https://www.youtube.com/watch?v=gd5uJ7Nlvvo}{CPU vs GPU vs TPU vs DPU vs QPU}
+
 \subsection{Futureness of this Research}
 
 Something about computational chemistry feels foundational in its results.
@@ -160,6 +184,12 @@ At the start of my project, the computational chemistry group meetings were quit
 I feel as though the supervisor report I received (Appendix~\ref{appendix:suprep}) is an accurate reflection of may capabilities from this year. It suggests that I am proficient with my use of technology and I'm glad this was seen. I flagged that my communication and teamwork skills were developing in my self assessment and these were identified as still developing by my supervisor. I can understand this as I've still has some anxiety issues which get worse when I get in a slump of not being productive. I think I have made progress in this space, but can see this being something I need to push towards being better and get out of my comfort zone, going into honours. Some of my planning stayed in the developing stage - another key skill for honours. I still finding ways that suit my workflow for planning my studies, as well as my personal life. I sometimes get distracted by finding ``the best way'' of planning, but really I just need to find something that works well enough and stick to it - I think this is what has been holding me back. Overall, I am happy with the report I received and I feel comfortable in asking for advice by my supervisor in regards to developing my skills and I'm proud of the rapport I have built with my supervisor.
 
 \section{Resources}
+
+\subsection{Pawsey}
+\subsubsection{GPU VM}
+\subsubsection{Setonix}
+\subsubsection{Topaz}
+\subsubsection{Banksia}
 
 \subsection{Emacs}
 \subsection{GPTA}
